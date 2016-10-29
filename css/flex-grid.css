@@ -51,7 +51,6 @@ html {
 
   .col-3 {
     flex-basis: 22.91666668%;
-
   }
 
   .col-4 {
@@ -59,6 +58,10 @@ html {
   }
 
   .col-6 {
-    flex-basis: 47.91666668%; 
+    flex-basis: 47.91666668%;
+  }
+
+  .col-12 {
+    flex-basis: 97.91666668%;
   }
 }/**  end media-query 40em **/
