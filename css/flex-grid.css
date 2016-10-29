@@ -2,7 +2,7 @@
    author: Michael Williams
    Date: 10/27/2016
    version: 0.1
-   
+
 
 /* Grid measurements:
  *
@@ -24,8 +24,10 @@ html {
 }
 
 .row {
-  max-width: 1000px;
   padding-left: 10px;
   padding-right: 10px;
-  margin: 0 auto;
+}
+.row:after, .row:before {
+  display: table;
+  content: " ";
 }
