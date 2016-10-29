@@ -38,3 +38,7 @@ html {
 .col-3, .col-4, .col-6, .col-12 {
   padding-bottom: .25em;
 }
+
+@media (min-width: 40em) {
+  
+}
