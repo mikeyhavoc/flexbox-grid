@@ -40,5 +40,16 @@ html {
 }
 
 @media (min-width: 40em) {
-  
+  .row {
+    flex-direction: row;
+  }
+  .col-3, .col-4, .col-6, .col-12 {
+    margin-left: 1.04166666%;
+    margin-right: 1.04166666%;
+  }
+
+  .col-3 {
+    flex-basis: 22.91666668%;
+
+  }
 }
