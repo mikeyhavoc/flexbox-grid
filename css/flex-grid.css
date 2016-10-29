@@ -4,15 +4,17 @@
    updated: 10/29/2016
    version: 0.5
 ***/
+/*-----------------------------------------
+use case .col should equal 12 if not items will wrap inside .row
+--------------------------------------------*/
+
+
+
 html {
   box-sizing: border-box;
 }
 *, *::before, *::after {
   box-sizing: inherit;
-}
-
-.container {
-  width: 100%;
 }
 
 .row {
@@ -21,7 +23,7 @@ html {
   flex-wrap: wrap;
   padding-left: 1.04166666%;
   padding-right: 1.04166666%;
-}
+}/*row is to small wraps items inside section*/
 
 .col-3, .col-4, .col-6, .col-12 {
   padding-bottom: .25em;
