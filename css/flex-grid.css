@@ -51,4 +51,8 @@ html {
   .col-3 {
     flex-basis: 22.91666668%;
   }
+
+  .col-4 {
+    flex-basis: 31.24666668%;
+  }
 }/**  end media-query 40em **/
