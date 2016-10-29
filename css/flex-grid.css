@@ -7,9 +7,6 @@
 /*-----------------------------------------
 use case .col should equal 12 if not items will wrap inside .row
 --------------------------------------------*/
-
-
-
 html {
   box-sizing: border-box;
 }
