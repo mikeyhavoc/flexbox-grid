@@ -23,14 +23,18 @@ html {
   box-sizing: inherit;
 }
 
+.container {
+  width: 100%;
+}
+
 .row {
   display: flex;
-  justify-content: space-around;
+  flex-direction:column;
   flex-wrap: wrap;
   padding-left: 2.5%;
   padding-right: 2.5%;
 }
-/*.row:after, .row:before {
-  display: table;
-  content: " ";
-}*/
+
+.col-3, .col-4, .col-6, .col-12 {
+  padding-bottom: .25em;
+}
